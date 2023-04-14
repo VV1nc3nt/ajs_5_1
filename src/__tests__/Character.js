@@ -4,6 +4,8 @@ import Character from '../Character';
 test('Testing Character class', () => {
   const recieved = new Character('Legolas', 'Bowman');
   const expected = {
+    attack: 0,
+    defence: 0,
     health: 100,
     name: 'Legolas',
     type: 'Bowman',
